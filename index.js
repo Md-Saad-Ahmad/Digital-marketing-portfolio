@@ -91,15 +91,4 @@ $(document).ready(function () {
   
 
 
-  document.getElementById('downloadBtn').addEventListener('click', function() {
-    var imagePath = './SbdlTm.jpg'; // Corrected file path
-    
-    var link = document.createElement('a');
-    link.href = imagePath;
-    link.download = 'image.jpg';
-    document.body.appendChild(link);
-    link.click();
-  
-    document.body.removeChild(link);
-  });
   
